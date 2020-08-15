@@ -53,13 +53,16 @@ main li:first-child {
 }
 
 main li {
-    margin-left: 30px;
-    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+    float: right;
+    padding: 3px;
 }
 
 main article {
     width: 50%;
     float: right;
+    margin-top: 30px;
 }
 
 main h2 {
@@ -81,11 +84,8 @@ main div {
     color: #fff;
     display: inline-block;
     margin-left: 30px;
-    margin-top: 10px;
-    ;
     padding: 10px 30px;
     border-radius: 5px;
-    cursor: pointer;
 }
 
 main div:hover {
